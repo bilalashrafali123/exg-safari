@@ -108,7 +108,7 @@ body, html {
 
 .container {
     display: flex;
-    max-width: 1320px; 
+    max-width: 1270px; 
     margin: 0 auto;    
     width: 100%;
     padding: 60px 20px;
@@ -130,14 +130,15 @@ body, html {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 40px;
+    margin-top: 20px;
+  
 }
 
 .container .subtitle {
-    font-size: 21px;
     font-family: "EB Garamond", serif;
+    font-size: 21px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .container .main-title {
