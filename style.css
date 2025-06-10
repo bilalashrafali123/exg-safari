@@ -1,0 +1,97 @@
+* {
+    font-family: "EB Garamond", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./src/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.heading {
+    font-size: 28px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.free-catalog-btn {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.get-in-touch-btn {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu i {
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 80px;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.footer-text {
+    padding-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
