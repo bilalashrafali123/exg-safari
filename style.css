@@ -165,7 +165,6 @@ body, html {
     font-family: 'Poppins', sans-serif;
     color: #CE7418;
     margin-top: 50px;
-
 }
 
 .trending-heading {
@@ -175,22 +174,21 @@ body, html {
     color: #212529;
 }
 
-
 .card {
     position: relative;
     height: 500px;
     flex: 1;
     overflow: hidden;
-  }
-  
-  .card img {
+}
+
+.card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-  }
-  
-  .card-overlay {
+}
+
+.card-overlay {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -198,77 +196,74 @@ body, html {
     color: #fff;
     padding: 40px 20px 20px;
     box-sizing: border-box;
-  }
-  
-  .card-heading {
+}
+
+.card-heading {
     margin:10px;
     font-size: 27px;
     text-align: center;
     font-family: "EB Garamond", serif;
-  }
-  
-  .card-para {
+}
+
+.card-para {
     margin: 5px 0 0;
     font-size: 14px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
-
-  
-   .featured-section {
+.featured-section {
     display: flex;
     width: 100%;
     height: 500px; 
-    
-  }
-  
-  .featured-image {
+}
+
+.featured-image {
     flex: 1;
     background-image: url("https://usa.reisen-safari.de/assets/images/safari/family.jpg");
     background-size: cover;
     background-position: left center;
-  }
-  
-  .featured-content {
+}
+
+.featured-content {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 40px; 
-  }
-  
-  .tagline {
+}
+
+.tagline {
     display: flex;
     align-items: center;
     color: #a3701a;
     font-weight: 500;
     font-size: 18px;
     gap: 8px;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 48px;
     font-weight: 500;
     margin: 0;
     font-family: 'Georgia', serif;
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
     font-style: italic;
     color: #a3701a;
     font-size: 20px;
     font-weight: 500;
     margin: 12px 0;
-  }
-  
-  .description {
+}
+
+.description {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
-  }
-  
-  .cta-button {
+}
+
+.cta-button {
     margin-top: 20px;
     background: none;
     border: 1px solid #a3701a;
@@ -280,16 +275,12 @@ body, html {
     letter-spacing: 1px;
     align-self: flex-start;
     transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
+}
+
+.cta-button:hover {
     background-color: #a3701a;
     color: white;
-  }
-
-  
-  
-  
+}
 
 @media (max-width: 992px) {
     .container {
@@ -297,25 +288,20 @@ body, html {
         padding: 40px 20px;
         gap: 20px; 
     }
-
     .image-section img {
         height: auto; 
     }
-
     .text-section {
         padding-left: 0;
         padding-top: 20px;
         text-align: center; 
     }
-
     .container .main-title {
         font-size: 45px;
     }
-
     .container .subtitle {
         font-size: 18px;
     }
-
     .container .paragraph {
         font-size: 15px;
     }
@@ -326,15 +312,12 @@ body, html {
         width: 100%;
         height: auto;
     }
-
     .container .main-title {
         font-size: 36px;
     }
-
     .container .subtitle {
         font-size: 17px;
     }
-
     .container .paragraph {
         font-size: 14px;
     }
@@ -345,15 +328,12 @@ body, html {
         padding: 30px 15px;
         gap: 15px;
     }
-
     .container .main-title {
         font-size: 30px;
     }
-
     .container .subtitle {
         font-size: 16px;
     }
-
     .container .paragraph {
         font-size: 13px;
     }
@@ -364,7 +344,6 @@ body, html {
         font-size: 70px;
         letter-spacing: 6px;
     }
-
     .hero .subtitle {
         font-size: 18px;
     }
@@ -374,29 +353,23 @@ body, html {
     .navbar {
         padding: 15px 20px;
     }
-
     .free-catalog-btn {
         display: none;
     }
-
     .get-in-touch-btn {
         display: none;
     }
-
     .hero .main-title {
         font-size: 60px;
         letter-spacing: 5px;
     }
-
     .hero .subtitle {
         font-size: 17px;
     }
-
     .container {
         flex-direction: column;
         padding: 40px 20px;
     }
-
     .text-section {
         padding-left: 0;
         padding-top: 20px;
@@ -407,16 +380,13 @@ body, html {
     .navbar-right {
         gap: 10px;
     }
-
     .hero .main-title {
         font-size: 45px;
         letter-spacing: 4px;
     }
-
     .hero .subtitle {
         font-size: 16px;
     }
-
     .footer-text {
         font-size: 14px;
     }
@@ -427,30 +397,24 @@ body, html {
         padding: 15px 20px;
         flex-direction: row;
     }
-
     .navbar-right {
         width: auto;
         justify-content: flex-end;
         gap: 10px;
     }
-
     .free-catalog-btn {
         display: none;
     }
-
     .get-in-touch-btn {
         display: none;
     }
-
     .hero .main-title {
         font-size: 35px;
         letter-spacing: 3px;
     }
-
     .hero .subtitle {
         font-size: 15px;
     }
-
     .footer-text {
         font-size: 13px;
     }
