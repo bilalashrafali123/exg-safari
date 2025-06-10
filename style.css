@@ -104,8 +104,6 @@ body, html {
     font-family: "Poppins", sans-serif;
 }
 
-
-
 .container {
     display: flex;
     max-width: 1270px; 
@@ -131,7 +129,6 @@ body, html {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-  
 }
 
 .container .subtitle {
@@ -161,17 +158,62 @@ body, html {
     margin-bottom: 15px;
 }
 
-
-
-.container {
+.trending {
     display: flex;
-    max-width: 1320px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 60px 20px;
-    gap: 40px; 
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #CE7418;
+    margin-top: 50px;
+
 }
 
+.trending-heading {
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-size: 50px;
+    color: #212529;
+}
+
+
+.card {
+    position: relative;
+    height: 500px;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent 60%);
+    color: #fff;
+    padding: 40px 20px 20px;
+    box-sizing: border-box;
+  }
+  
+  .card-heading {
+    margin:10px;
+    font-size: 27px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+  }
+  
+  .card-para {
+    margin: 5px 0 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
 
 @media (max-width: 992px) {
     .container {
@@ -222,7 +264,6 @@ body, html {
     }
 }
 
-
 @media (max-width: 480px) {
     .container {
         padding: 30px 15px;
@@ -241,8 +282,6 @@ body, html {
         font-size: 13px;
     }
 }
-
-
 
 @media (max-width: 1200px) {
     .hero .main-title {
